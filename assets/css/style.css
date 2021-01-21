@@ -1,0 +1,61 @@
+body{
+    font-family: 'Bodoni Moda', serif;
+}
+.carousel-indicators li {
+    color: black;
+}
+.carousel-inner img{
+    height: 400px;
+}
+ 
+.card-img-top{
+    height: 370px;
+}
+
+.footer{
+    padding: 4rem;
+    background-color: #151B54;
+    color: white;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+ 
+.flex-container a{
+    text-decoration: none;
+}
+  .flex-item-one {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 25%;
+  }
+  
+  .flex-item-two {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 25%;
+  }
+
+  .flex-item-three {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 25%;
+  }
+
+  .flex-item-four {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 25%;
+  }
+  
+  @media (max-width: 800px) {
+    .flex-item-one, .flex-item-two, .flex-item-three, .flex-item-four {
+      flex: 100%;
+    }
+  }
+ 
